@@ -1,3 +1,11 @@
+
+/* img .Navbar__brand-logo{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+} */
+
 .Navbar {
   width: 100%;
   padding: 0.5rem 0;
@@ -18,4 +26,9 @@
 
 .Navbar__brand-logo {
   margin-right: 0.5rem;
+  width: 150px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+
 }
