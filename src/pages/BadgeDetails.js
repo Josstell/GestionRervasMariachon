@@ -86,8 +86,8 @@ const guardar= async (badge,item,url)=> {
 
    // this.setState({ loading: false });
 
-   // history.push(`/badges/${badge[0].id}`);
-    history.push('/');
+    history.push(`/badges/${badge[0].id}`);
+    //history.push('/');
 
   } catch (error) {
     return false;

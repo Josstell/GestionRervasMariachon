@@ -1,7 +1,9 @@
 import React from 'react';
 
 import './styles/BadgeNew.css';
-import header from '../images/Logotipo-1.png';
+//import header from '../images/Logotipo-1.png';
+import AncientMexico from '../images/Ancient_Mexico.png';
+
 import Badge from '../components/Badge';
 import BadgeForm from '../components/BadgeForm';
 import PageLoading from '../components/PageLoading'
@@ -103,7 +105,7 @@ class BadgeNew extends React.Component {
         <div className="BadgeNew__hero">
           <img
             className="BadgeNew__hero-image img-fluid"
-            src={header}
+            src={AncientMexico}
             alt="Logo"
           />
         </div>
