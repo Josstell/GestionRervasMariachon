@@ -59,11 +59,13 @@ class Badge extends React.Component {
       <div className="Badge">
         <div className="Badge__header">
           <img src={mariachisEnPueblaLogo} alt="Logo Mariachis en Puebla" />
+
         </div>
+        
 
         <div className="Badge__section-name">
         <img className="Badge__avatar" src={logoMariachi} alt='Logo_mariachi'/>
-          {/* <Gravatar className="Badge__avatar" email={this.props.email} /> */}
+
           <h4>
           <strong>Reserva: </strong> {this.props.id}<br /> <strong>Cliente: </strong>  {this.props.firstName} 
           </h4>

@@ -54,13 +54,7 @@ class BadgesListItem extends React.Component {
 
     return (
       <div className="BadgesListItem">
-
-      <img className="BadgesListItem__avatar" src={logoMariachi} alt='Logo_mariachi'/>
-
-        {/* <Gravatar
-          className="BadgesListItem__avatar"
-          email={this.props.badge.email}
-        /> */}
+        <img className="BadgesListItem__avatar" src={logoMariachi} alt='Logo_mariachi'/>
 
         <div>
           <strong>
